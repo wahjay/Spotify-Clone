@@ -1,0 +1,43 @@
+.sidebarOption {
+  display: flex;
+  color: #C0C0C0;
+  height: 40px;
+  cursor: pointer;
+  transition: 30ms color ease-in;
+  align-items: center;
+}
+
+.sidebarOption:hover {
+  color: white;
+  filter: brightness(150%);
+}
+
+.sidebarOption__icon {
+  padding: 0 10px;
+}
+
+/* for the top 3 sidebar option only */
+.sidebarOption__active {
+  border-radius: 10px;
+  background-color: #282828;
+  color: white;
+}
+
+.sidebarOption > div {
+  max-width: 200px;
+  display: inline-block;
+}
+
+.sidebarOption > div > p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sidebarOption > h4 {
+  font-weight: 700;
+  font-size: 14px;
+}
