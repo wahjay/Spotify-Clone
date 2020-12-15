@@ -7,7 +7,7 @@ This project was bootstrapped with Create React App.
 
 This project is a spotify web app clone that simulates the interface and functionality of the playlist page from <a href="https://open.spotify.com/">Spotify web.</a>
 The app fetches all the playlists from the current user. The user can then choose a playlist and play the songs inside it.
-Due to copyright estrictions, all the songs can only be played in 30s as a preview. Some songs may not have a preview.
+Due to copyright restrictions, all the songs can only be played in 30s as a preview. Some songs may not have a preview.
 
 <b>The app is available <a href="https://spotify-clone-b0067.web.app">here</a></b>
 
